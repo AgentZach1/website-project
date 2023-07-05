@@ -7,8 +7,11 @@
   
   .home,
   .services,
-  .products,
-  .sign-up {
+  .playground,
+  .sign-up,
+  .protected,
+  .butt,
+  .secret {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -24,8 +27,26 @@
     color: #fff;
     font-size: 100px;
   }
+
+  .protected {
+    background-image: url('./images/playgroundDarkBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
   
-  .products {
+  .playground {
+    background-image: url('./images/vaporWaveBackground.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .butt {
     background-image: url('./images/vaporWaveBackground.jpg');
     background-position: center;
     background-size: fill;
@@ -35,6 +56,15 @@
   }
    
   .sign-up {
+    background-image: url('./images/websiteBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .secret {
     background-image: url('./images/websiteBackground.jpg');
     background-position: center;
     background-size: cover;
